@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -7.874 12.954 0)
+			(at 0.254 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "ESP32-S3-Zero"
-			(at 11.43 12.954 0)
+			(at 25.908 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24,7 +24,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:ESP32-S3-Zero"
-			(at 0.254 -17.018 0)
+			(at 12.7 -52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.waveshare.com/wiki/ESP32-S3-Zero"
-			(at 0.254 -14.986 0)
+			(at 12.7 -50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,7 +42,7 @@
 			)
 		)
 		(property "Description" "Waveshare ESP32-S3-Zero"
-			(at 0.254 -13.208 0)
+			(at 12.7 -48.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61,8 +61,8 @@
 		)
 		(symbol "ESP32-S3-Zero_1_1"
 			(rectangle
-				(start -7.62 11.43)
-				(end 8.89 -11.43)
+				(start 0 0)
+				(end 24.13 -35.56)
 				(stroke
 					(width 0)
 					(type default)
@@ -72,7 +72,7 @@
 				)
 			)
 			(pin power_in line
-				(at -1.27 11.43 90)
+				(at 10.16 2.54 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -90,7 +90,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -10.16 180)
+				(at 26.67 -33.02 180)
 				(length 2.54)
 				(name "GPIO7"
 					(effects
@@ -108,7 +108,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -7.62 180)
+				(at 26.67 -29.21 180)
 				(length 2.54)
 				(name "GPIO8"
 					(effects
@@ -126,7 +126,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -5.08 180)
+				(at 26.67 -25.4 180)
 				(length 2.54)
 				(name "GPIO9"
 					(effects
@@ -144,7 +144,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -2.54 180)
+				(at 26.67 -21.59 180)
 				(length 2.54)
 				(name "GPIO10"
 					(effects
@@ -162,7 +162,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 0 180)
+				(at 26.67 -17.78 180)
 				(length 2.54)
 				(name "GPIO11"
 					(effects
@@ -180,7 +180,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 2.54 180)
+				(at 26.67 -13.97 180)
 				(length 2.54)
 				(name "GPIO12"
 					(effects
@@ -198,7 +198,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 5.08 180)
+				(at 26.67 -10.16 180)
 				(length 2.54)
 				(name "GPIO13"
 					(effects
@@ -216,7 +216,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 7.62 180)
+				(at 26.67 -6.35 180)
 				(length 2.54)
 				(name "RX"
 					(effects
@@ -234,7 +234,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 10.16 180)
+				(at 26.67 -2.54 180)
 				(length 2.54)
 				(name "TX"
 					(effects
@@ -252,7 +252,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -11.43 270)
+				(at 12.7 -38.1 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -270,7 +270,7 @@
 				)
 			)
 			(pin power_out line
-				(at 1.27 11.43 90)
+				(at 15.24 2.54 270)
 				(length 2.54)
 				(name "3V3(OUT)"
 					(effects
@@ -288,7 +288,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 2.54 0)
+				(at -2.54 -13.97 0)
 				(length 2.54)
 				(name "GPIO1"
 					(effects
@@ -306,7 +306,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 0 0)
+				(at -2.54 -17.78 0)
 				(length 2.54)
 				(name "GPIO2"
 					(effects
@@ -324,7 +324,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -2.54 0)
+				(at -2.54 -21.59 0)
 				(length 2.54)
 				(name "GPIO3"
 					(effects
@@ -342,7 +342,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -5.08 0)
+				(at -2.54 -25.4 0)
 				(length 2.54)
 				(name "GPIO4"
 					(effects
@@ -360,7 +360,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -7.62 0)
+				(at -2.54 -29.21 0)
 				(length 2.54)
 				(name "GPIO5"
 					(effects
@@ -378,7 +378,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -10.16 0)
+				(at -2.54 -33.02 0)
 				(length 2.54)
 				(name "GPIO6"
 					(effects
